@@ -14,11 +14,25 @@
           <div class="rd-navbar-nav-outer">
             <!-- RD Navbar Nav-->
             <ul class="rd-navbar-nav">
-              <li class="rd-nav-item active"><a class="rd-nav-link" href="/">Home</a>
+              <li class="rd-nav-item active"><a class="rd-nav-link" href="/">{{ __('home') }}</a>
               </li>
-              <li class="rd-nav-item"><a class="rd-nav-link" href="https://user.fxtrado.com/register">Register</a>
+              <li class="rd-nav-item"><a class="rd-nav-link" href="https://user.fxtrado.com/register">{{ __('register') }}</a>
               </li>
-              <li class="rd-nav-item"><a class="rd-nav-link" href="https://user.fxtrado.com/login">Login</a>
+              <li class="rd-nav-item"><a class="rd-nav-link" href="https://user.fxtrado.com/login">{{ __('login') }}</a>
+              </li>
+              <li class="rd-nav-item"><a class="rd-nav-link" href="#">{{ __('language') }}</a>
+                <!-- RD Navbar Dropdown-->
+                <ul class="rd-menu rd-navbar-dropdown">
+                  <li class="rd-dropdown-item">
+                    <a class="rd-dropdown-link" href="{{ route('switch.language', ['lang' => 'en']) }}">English</a>
+                  </li>
+                  <li class="rd-dropdown-item">
+                      <a class="rd-dropdown-link" href="{{ route('switch.language', ['lang' => 'cn']) }}">简体中文</a>
+                  </li>
+                  <li class="rd-dropdown-item">
+                      <a class="rd-dropdown-link" href="{{ route('switch.language', ['lang' => 'tw']) }}">繁体中文</a>
+                  </li>
+                </ul>
               </li>
             </ul>
           </div>

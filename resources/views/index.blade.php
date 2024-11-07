@@ -45,10 +45,10 @@
                   </div> --}}
                   <div>
                     <div class="slick-slide-caption">
-                      <h6>Leading bitcoin exchange</h6>
-                      <h1>Easy exchange</h1>
-                      <h3 class="decoration-heading-1">For Everyone Worldwide</h3>
-                      <p>Our website has been a leading cryptocurrency exchange since day one of Bitcoin distribution. The whole process is easy and secure.</p>
+                      <h6>{{ __('leading_bitcoin_excahnge') }}</h6>
+                      <h1>{{ __('easy_exchange') }}</h1>
+                      <h3 class="decoration-heading-1">{{ __('for_everyone_worldwide') }}</h3>
+                      <p>{{ __('our_website_has') }}</p>
                     </div>
                   </div>
                   {{-- <div>
@@ -74,36 +74,36 @@
           <!-- What bitcoin offers you-->
           <section class="section section-md bg-white text-center">
             <div class="container">
-              <h6>What bitcoin offers you</h6>
-              <h2>No idea <strong>what’s</strong> going on?</h2>
-              <p><span style="max-width: 430px;">Bitcoin is received, stored, and sent using software known as Bitcoin Wallet, which is available for free.</span></p>
+              <h6>{{ __('what_bitcoin_offer') }}</h6>
+              <h2>{{ __('no_idea') }}<strong>{{ __('whats') }}</strong>{{ __('going_on') }} </h2>
+              <p><span style="max-width: 430px;">{{ __('bitcoin_is_receive') }}</span></p>
               <div class="row row-30">
                 <div class="col-lg-6 wow fadeInUpSmall">
                   <!-- Link Box--><a class="link-box" href="#"><span class="icon link-box__icon linearicons-mouse-right"></span>
                     <div class="link-box__main">
-                      <h4>Download a Wallet</h4>
-                      <p>Easily gain access to your own wallet in a few clicks.</p>
+                      <h4>{{ __('download_a_wallet') }}</h4>
+                      <p>{{ __('easily_gain') }}</p>
                     </div></a>
                 </div>
                 <div class="col-lg-6 wow fadeInUpSmall" data-wow-delay=".02s">
                   <!-- Link Box--><a class="link-box" href="#"><span class="icon link-box__icon linearicons-cart-exchange"></span>
                     <div class="link-box__main">
-                      <h4>Use Bitcoin</h4>
-                      <p>You can use your Bitcoins for all kinds of transactions.</p>
+                      <h4>{{ __('use_bitcoin') }}</h4>
+                      <p>{{ __('you_can_use_your_bitcoin') }}</p>
                     </div></a>
                 </div>
                 <div class="col-lg-6 wow fadeInUpSmall" data-wow-delay=".1s">
                   <!-- Link Box--><a class="link-box" href="#"><span class="icon link-box__icon linearicons-bag-dollar"></span>
                     <div class="link-box__main">
-                      <h4>Time to Buy Bitcoins</h4>
-                      <p>Every registered user can buy or exchange bitcoins.</p>
+                      <h4>{{ __('time_to_buy_bitcoin') }}</h4>
+                      <p>{{ __('every_registered') }}</p>
                     </div></a>
                 </div>
                 <div class="col-lg-6 wow fadeInUpSmall" data-wow-delay=".12s">
                   <!-- Link Box --><a class="link-box" href="#"><span class="icon link-box__icon linearicons-folder-search"></span>
                     <div class="link-box__main">
-                      <h4>Knowledge Base</h4>
-                      <p>Find an answer to any Bitcoin-related question.</p>
+                      <h4>{{ __('knowledge_base') }}</h4>
+                      <p>{{ __('find_an_answer') }}</p>
                     </div></a>
                 </div>
               </div>
@@ -120,26 +120,26 @@
               <div class="cell-lg-6 align-self-center">
                 <div class="cell-inner">
                   <div class="box-inset-1">
-                    <h6 class="wow fadeInRightSmall">A few words about bitcoin</h6>
-                    <h2 class="wow fadeInRightSmall" data-wow-delay=".1s"><strong>Bitcoin</strong> is different than any currency </h2>
+                    <h6 class="wow fadeInRightSmall">{{ __('a_few_words_about') }}</h6>
+                    <h2 class="wow fadeInRightSmall" data-wow-delay=".1s"><strong>{{ __('bitcoin') }}</strong>{{ __('is_different_than') }}  </h2>
                     <!-- Bootstrap tabs-->
                     <div class="tabs-custom tabs-horizontal tabs-line wow fadeInRightSmall" id="tabs-about" data-wow-delay=".2s">
                       <!-- Nav tabs-->
                       <ul class="nav nav-tabs">
-                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-about-1" data-toggle="tab">About</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-about-2" data-toggle="tab">How it works</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-about-3" data-toggle="tab">Mission</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-about-1" data-toggle="tab">{{ __('about') }}</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-about-2" data-toggle="tab">{{ __('how_it_works') }}</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-about-3" data-toggle="tab">{{ __('mission') }}</a></li>
                       </ul>
                       <!-- Tab panes-->
                       <div class="tab-content">
                         <div class="tab-pane fade show active" id="tabs-about-1">
-                          <p>Bitcoin differs from any currency you’ve used before, so it's important to understand some key points including the fact that this currency is not anonymous and can’t be regulated.</p>
+                          <p>{{ __('bitcoin_differs') }}</p>
                         </div>
                         <div class="tab-pane fade" id="tabs-about-2">
-                          <p>Bitcoin is based on a protocol known as the blockchain, which allows to create, transfer and verify ultra-secure financial data without interference of third parties.</p>
+                          <p>{{ __('bitcoin_is_based_on') }}</p>
                         </div>
                         <div class="tab-pane fade" id="tabs-about-3">
-                          <p>Our mission as an official partner of Bitcoin Foundation is to help you enter and better understand the world of #1 cryptocurrency and avoid any issues you may encounter.</p>
+                          <p>{{ __('our_mission_as') }}</p>
                         </div>
                       </div>
                     </div>
@@ -155,20 +155,21 @@
               <div class="row justify-content-center justify-content-xl-between align-items-end">
                 <div class="col-md-10 col-lg-6">
                   <div class="section-lg">
-                    <h6 class="wow fadeInLeftSmall">Be one step ahead</h6>
-                    <h2 class="wow fadeInLeftSmall" data-wow-delay=".1s">Learning <strong>80%</strong> of what the experts know is easy</h2>
-                    <p class="lead wow fadeInLeftSmall" data-wow-delay=".15s">Join our FREE 10-day email course and start today.</p>
+                    <h6 class="wow fadeInLeftSmall">{{ __('be_one_step_ahead') }}</h6>
+                    <h2 class="wow fadeInLeftSmall" data-wow-delay=".1s">{{ __('learning') }} <strong>80%</strong>{{ __('of_what_the_expert') }} </h2>
+                    <p class="lead wow fadeInLeftSmall" data-wow-delay=".15s">{{ __('join_our_free_day') }}</p>
                     <!-- RD Mailform-->
-                    <form class="form form-lg rd-mailform form-inline wow fadeInLeftSmall" data-wow-delay=".2s" data-form-output="form-output-global" data-form-type="subscribe" method="post" action="bat/rd-mailform.php">
+                    <form class="form form-lg rd-mailform form-inline wow fadeInLeftSmall" data-wow-delay=".2s" data-form-output="form-output-global" data-form-type="subscribe" method="post" action="{{ route('submitEmail') }}">
+                      @csrf
                       <div class="form-wrap">
                         <input class="form-input" id="subscribe-form-email" type="email" name="email" data-constraints="">
-                        <label class="form-label" for="subscribe-form-email">Enter your e-mail</label>
+                        <label class="form-label" for="subscribe-form-email">{{ __('enter_your_email') }}</label>
                       </div>
                       <div class="form-button">
-                        <button class="button button-primary" type="submit">Send</button>
+                        <button class="button button-primary" type="submit">{{ __('send') }}</button>
                       </div>
                     </form>
-                    <p class="wow fadeInLeftSmall" data-wow-delay=".25s"><span style="opacity: .25;">*We promise not to send spam</span></p>
+                    <p class="wow fadeInLeftSmall" data-wow-delay=".25s"><span style="opacity: .25;">*{{ __('we_promise_not_to_send_spam') }}</span></p>
                   </div>
                 </div>
                 <div class="col-md-10 col-lg-6 col-xl-5">
@@ -185,8 +186,8 @@
             <div class="container container-md-smaller">
               <div class="row justify-content-center">
                 <div class="col-sm-10 col-md-12">
-                  <h6 class="wow fadeInUpSmall">How it works</h6>
-                  <h2 class="wow fadeInUpSmall" data-wow-delay=".1s"><span class="d-inline-block" style="max-width: 570px;">The way to <strong>bitcoins</strong> is not as complex as it seems</span></h2>
+                  <h6 class="wow fadeInUpSmall">{{ __('how_it_work') }}</h6>
+                  <h2 class="wow fadeInUpSmall" data-wow-delay=".1s"><span class="d-inline-block" style="max-width: 570px;">{{ __('the_way_to') }}<strong>{{ __('bitcoins') }}</strong>{{ __('is_not_as_complex_as') }}</span></h2>
                 </div>
               </div>
               <ul class="list-steps">
@@ -194,24 +195,24 @@
                   <div class="list-steps__item-counter"></div>
                   <div class="list-steps__item-divider"></div>
                   <div class="list-steps__item-main">
-                    <h4><a href="#">Download Bitcoin Wallet</a></h4>
-                    <p>Download Bitcoin Wallet app for your PC, Android, or iOS to create, send and receive bitcoins. You can create multiple wallets for one account.</p>
+                    <h4><a href="#">{{ __('download_bitcoin_wallet') }}</a></h4>
+                    <p>{{ __('download_bitcoin_wallet2') }}</p>
                   </div>
                 </li>
                 <li class="list-steps__item wow fadeInLeftSmall" data-wow-delay=".2s">
                   <div class="list-steps__item-counter"></div>
                   <div class="list-steps__item-divider"></div>
                   <div class="list-steps__item-main">
-                    <h4><a href="#">Add Coins to Your Wallet</a></h4>
-                    <p>Once the app is downloaded you can add the bitcoins you’ve already created or exchanged via credit card.</p>
+                    <h4><a href="#">{{ __('add_coin_to') }}</a></h4>
+                    <p>{{ __('once_the_app_is') }}</p>
                   </div>
                 </li>
                 <li class="list-steps__item wow fadeInLeftSmall" data-wow-delay=".3s">
                   <div class="list-steps__item-counter"></div>
                   <div class="list-steps__item-divider"></div>
                   <div class="list-steps__item-main">
-                    <h4><a href="#">Send/Receive with Wallet</a></h4>
-                    <p>The process of sending bitcoins is very easy. In two words, you need to enter receiver's Bitcoin address, specify the amount, confirm address and send.</p>
+                    <h4><a href="#">{{ __('send_receive_with') }}</a></h4>
+                    <p>{{ __('the_process_of_sending_bitcoin') }}</p>
                   </div>
                 </li>
               </ul>
@@ -224,12 +225,12 @@
               <div class="container">
                 <div class="row row-30 align-items-center">
                   <div class="col-lg-9 wow fadeInLeftSmall">
-                    <h2>Get fully <strong>featured</strong>, convenient wallet</h2>
-                    <p class="big">Bitcoin wallet is a perfect solution for your cryptocurrency storage needs.</p>
+                    <h2>{{ __('get_fully') }} <strong>{{ __('featured') }}</strong>, {{ __('convenient_wallet') }}</h2>
+                    <p class="big">{{ __('bitcoin_wallet') }}</p>
                   </div>
                   <div class="col-lg-3 wow fadeInRightSmall text-lg-right">
                     <a href="https://user.fxtrado.com/register">
-                    <button class="button button-default-outline">Register now</button></a>
+                    <button class="button button-default-outline">{{ __('register_now') }}</button></a>
                   </div>
                 </div>
               </div>
@@ -244,49 +245,49 @@
                 <div class="col-sm-6 col-lg-4 wow fadeIn">
                         <!-- Box Minimal-->
                         <article class="box-minimal"><span class="icon box-minimal__icon linearicons-lock"></span>
-                          <h4 class="box-minimal__title">Safe &amp; Secure</h4>
+                          <h4 class="box-minimal__title">{{ __('safe') }} &amp; {{ __('secure') }}</h4>
                           <div class="box-minimal__divider"></div>
-                          <p>Be sure in your account security and your funds safety.</p>
+                          <p>{{ __('be_sure_in_your_account') }}</p>
                         </article>
                 </div>
                 <div class="col-sm-6 col-lg-4 wow fadeIn" data-wow-delay=".1s">
                         <!-- Box Minimal-->
                         <article class="box-minimal"><span class="icon box-minimal__icon linearicons-cloud-upload"></span>
-                          <h4 class="box-minimal__title">Instant Exchange</h4>
+                          <h4 class="box-minimal__title">{{ __('instant_exchange') }}</h4>
                           <div class="box-minimal__divider"></div>
-                          <p>Exchange your bitcoins instantly without any extra payments.</p>
+                          <p>{{ __('exchange_yout_bitcoin') }}</p>
                         </article>
                 </div>
                 <div class="col-sm-6 col-lg-4 wow fadeIn" data-wow-delay=".2s">
                         <!-- Box Minimal-->
                         <article class="box-minimal"><span class="icon box-minimal__icon linearicons-umbrella2"></span>
-                          <h4 class="box-minimal__title">Expert Support</h4>
+                          <h4 class="box-minimal__title">{{ __('expert_support') }}</h4>
                           <div class="box-minimal__divider"></div>
-                          <p>We provide 24/7 expert support for our registered clients.</p>
+                          <p>{{ __('we_provide_expert') }}</p>
                         </article>
                 </div>
                 <div class="col-sm-6 col-lg-4 wow fadeIn">
                         <!-- Box Minimal-->
                         <article class="box-minimal"><span class="icon box-minimal__icon linearicons-tablet2"></span>
-                          <h4 class="box-minimal__title">Mobile Apps</h4>
+                          <h4 class="box-minimal__title">{{ __('mobile_app') }}</h4>
                           <div class="box-minimal__divider"></div>
-                          <p>Perfectly developed mobile apps will open you new opportunities.</p>
+                          <p>{{ __('perfectly_developed') }}</p>
                         </article>
                 </div>
                 <div class="col-sm-6 col-lg-4 wow fadeIn" data-wow-delay=".1s">
                         <!-- Box Minimal-->
                         <article class="box-minimal"><span class="icon box-minimal__icon linearicons-credit-card"></span>
-                          <h4 class="box-minimal__title">Personal Wallet</h4>
+                          <h4 class="box-minimal__title">{{ __('personal_wallet') }}</h4>
                           <div class="box-minimal__divider"></div>
-                          <p>Our easy-to-use personal wallet system will keep your bitcoins safe.</p>
+                          <p>{{ __('our_easy_to_user') }}</p>
                         </article>
                 </div>
                 <div class="col-sm-6 col-lg-4 wow fadeIn" data-wow-delay=".2s">
                         <!-- Box Minimal-->
                         <article class="box-minimal"><span class="icon box-minimal__icon linearicons-sync"></span>
-                          <h4 class="box-minimal__title">Recurring Buys</h4>
+                          <h4 class="box-minimal__title">{{ __('recurring_buy') }}</h4>
                           <div class="box-minimal__divider"></div>
-                          <p>Bitcoin allows you to set up recurring transactions in just two clicks.</p>
+                          <p>{{ __('bitcoin_allow') }}</p>
                         </article>
                 </div>
               </div>
@@ -300,8 +301,8 @@
                 <div class="row row-30 flex-lg-row-reverse justify-content-center align-items-center">
                   <div class="col-sm-10 col-lg-5">
                     <div class="box-inset-2">
-                      <h6 class="wow fadeInRightSmall">In the spotlight</h6>
-                      <h2 class="wow fadeInRightSmall" data-wow-delay=".1s">Latest Bitcoin <strong>News</strong> Stories</h2>
+                      <h6 class="wow fadeInRightSmall">{{ __('in_the_spotlight') }}</h6>
+                      <h2 class="wow fadeInRightSmall" data-wow-delay=".1s">{{ __('latest_bitcoin') }} <strong>{{ __('news') }}</strong>{{ __('stories') }} </h2>
                     </div>
                   </div>
                   <div class="col-lg-7">
@@ -311,15 +312,15 @@
                       <div class="owl-carousel" data-items="1" data-dots="false" data-nav="false" data-loop="true" data-margin="10" data-autoplay="true" data-mouse-drag="false" data-animation-in="fadeIn" data-animation-out="fadeOut" data-autoplay-timeout="4012">
                         <article class="post-minimal">
                           <time class="post-minimal__time" datetime="2018">Nov 20, 2018</time>
-                          <p>PR: Uservice Is a Global Decentralized Blockchain Platform for the Auto Industry</p>
+                          <p>{{ __('pr_uservice') }}</p>
                         </article>
                         <article class="post-minimal">
                           <time class="post-minimal__time" datetime="2018">Nov 20, 2018</time>
-                          <p>Major Exchanges Don’t Want Forked Coins but Smaller Platforms Can’t Get Enough of Them</p>
+                          <p>{{ __('major_exchange') }}</p>
                         </article>
                         <article class="post-minimal">
                           <time class="post-minimal__time" datetime="2018">Nov 20, 2018</time>
-                          <p>American Programmer Arrested Over $20 Million Bitcoin Theft</p>
+                          <p>{{ __('american_programmer') }}</p>
                         </article>
                       </div>
                       <!-- 2-->
@@ -327,15 +328,15 @@
                       <div class="owl-carousel" data-items="1" data-dots="false" data-nav="false" data-loop="true" data-margin="10" data-autoplay="true" data-mouse-drag="false" data-animation-in="fadeIn" data-animation-out="fadeOut" data-autoplay-timeout="5017">
                         <article class="post-minimal">
                           <time class="post-minimal__time" datetime="2018">Nov 20, 2018</time>
-                          <p>A Hacker Gained Access to the Bitcoin Gold Windows Wallet Github</p>
+                          <p>{{ __('a_hacker_gained_access') }}</p>
                         </article>
                         <article class="post-minimal">
                           <time class="post-minimal__time" datetime="2018">Nov 20, 2018</time>
-                          <p>Markets Update: Bitcoin Price Moves Sideways During the Holidays</p>
+                          <p>{{ __('market_update') }}</p>
                         </article>
                         <article class="post-minimal">
                           <time class="post-minimal__time" datetime="2018">Nov 20, 2018</time>
-                          <p>Vietnam Investigates Merchants for Accepting Bitcoin Despite Warnings</p>
+                          <p>{{ __('vietname_investigate') }}</p>
                         </article>
                       </div>
                       <!-- 3-->
@@ -343,15 +344,15 @@
                       <div class="owl-carousel" data-items="1" data-dots="false" data-nav="false" data-loop="true" data-margin="10" data-autoplay="true" data-mouse-drag="false" data-animation-in="fadeIn" data-animation-out="fadeOut" data-autoplay-timeout="6035">
                         <article class="post-minimal">
                           <time class="post-minimal__time" datetime="2018">Nov 20, 2018</time>
-                          <p>Hong Kong Company Set to Build Crypto Mining Farm and Museum</p>
+                          <p>{{ __('hong_kong') }}</p>
                         </article>
                         <article class="post-minimal">
                           <time class="post-minimal__time" datetime="2018">Nov 20, 2018</time>
-                          <p>Bitcoin Network Fees Are Irritating Cryptocurrency Proponents</p>
+                          <p>{{ __('bitcoin_network') }}</p>
                         </article>
                         <article class="post-minimal">
                           <time class="post-minimal__time" datetime="2018">Nov 20, 2018</time>
-                          <p>Data Over Drama: Bitcoin Cash Versus Bitcoin Core Transactions</p>
+                          <p>{{ __('data_over_drama') }}</p>
                         </article>
                       </div>
                     </div>
@@ -375,38 +376,38 @@
             <div class="container">
               <div class="row justify-content-end">
                 <div class="col-md-8 col-lg-7">
-                  <h2><strong>What</strong> People Say</h2>
+                  <h2><strong>{{ __('what') }}</strong>{{ __('people_say') }} </h2>
                   <div class="slick-slider carousel-parent" data-arrows="false" data-loop="false" data-dots="true" data-swipe="false" data-items="1" data-fade="true" data-child="#child-carousel" data-for="#child-carousel">
                     <div class="item">
                       <blockquote class="quote-classic">
                         <div class="quote-classic__text">
-                          <p>I chose this website to trade Blockchain and a few other currencies. They have clear trading venue with good reputation over the past years and  many exchange directions. Most people I know are using it. I hope to work with Blockchain more in the future and I will recommend this site to all my colleagues and friends.</p>
+                          <p>{{ __('i_choose_this_website') }}</p>
                         </div>
                         <div class="quote-classic__meta">
                           <cite class="quote-classic__cite">Bryan Thompson </cite>
-                          <p class="quote-classic__info">Businessman </p>
+                          <p class="quote-classic__info">{{ __('businessman') }} </p>
                         </div>
                       </blockquote>
                     </div>
                     <div class="item">
                       <blockquote class="quote-classic">
                         <div class="quote-classic__text">
-                          <p>As an expert in finance, I truly believe that cryptocurrencies are the future. I’m glad to say that your website is a perfect source for both newbies and professionals in bitcoin trading and exchange as it allows to better understand how it works. What’s more important, your team is always ready to help if a user has any questions.</p>
+                          <p>{{ __('as_an_expert_in_finance') }}</p>
                         </div>
                         <div class="quote-classic__meta">
                           <cite class="quote-classic__cite">Joan McMillan</cite>
-                          <p class="quote-classic__info">Finance Expert</p>
+                          <p class="quote-classic__info">{{ __('finance_expert') }}</p>
                         </div>
                       </blockquote>
                     </div>
                     <div class="item">
                       <blockquote class="quote-classic">
                         <div class="quote-classic__text">
-                          <p>I started bitcoin trading as a hobby and your website was the only source I found on the Internet to be completely reliable. Your Support Team helped me avoid all twists and turns that appeared to be risky and now I can successfully exchange and trade my bitcoins on your website. Thank you for your help and understanding!</p>
+                          <p>{{ __('i_started_bitcoin') }}</p>
                         </div>
                         <div class="quote-classic__meta">
                           <cite class="quote-classic__cite">Sam Wilson</cite>
-                          <p class="quote-classic__info">Designer           </p>
+                          <p class="quote-classic__info">{{ __('designer') }}           </p>
                         </div>
                       </blockquote>
                     </div>
@@ -414,7 +415,7 @@
                 </div>
               </div>
             </div>
-            <p class="text-extra-large">Feedback</p>
+            <p class="text-extra-large">{{ __('feedback') }}</p>
           </section>
     
           <!-- Easily convert bitcoin into any currency-->
@@ -423,8 +424,8 @@
               <div class="row row-30 justify-content-center justify-content-lg-between align-items-end">
                 <div class="col-md-10 col-lg-6">
                   <div class="box-inset-4">
-                    <h2 class="wow fadeInLeftSmall">Easily <strong>convert</strong> bitcoin into any currency</h2>
-                    <p class="wow fadeInLeftSmall" data-wow-delay=".1s">Millions of people have made a fortune with bitcoins! Check current exchange rates and make your profit from buying/selling bitcoins.</p>
+                    <h2 class="wow fadeInLeftSmall">{{ __('easily') }} <strong>{{ __('convert') }}</strong>{{ __('bitcoin_into_any_currency') }} </h2>
+                    <p class="wow fadeInLeftSmall" data-wow-delay=".1s">{{ __('millions_of_people') }}</p>
                   </div>
                   <form class="form form-lg form-calculator form-btc-calculator wow fadeInLeftSmall" data-wow-delay=".2s">
                     <input class="form-input" name="btc-calculator-value" value="1">
@@ -434,7 +435,7 @@
                       <select class="form-input select-currency select-primary" name="btc-calculator-currency" data-dropdown-class="select-primary-dropdown"></select>
                     </div>
                   </form>
-                  <p class="wow fadeInLeftSmall" data-wow-delay=".2s"><span style="opacity: .5;">*Info updates every 15 minutes</span></p>
+                  <p class="wow fadeInLeftSmall" data-wow-delay=".2s"><span style="opacity: .5;">*{{ __('info_update_every') }}</span></p>
                 </div>
                 <div class="col-md-10 col-lg-6 wow fadeInUpSmall" data-wow-delay=".1s">
                   <!-- Slick Carousel -->
@@ -446,7 +447,7 @@
                           <article class="profile-minimal"><img class="profile-minimal__image" src="assets/images/user-1-101x101.jpg" alt="" width="101" height="101"/>
                             <div class="profile-minimal__main">
                               <p class="profile-minimal__name">Marcel Vossen</p>
-                              <p class="profile-minimal__position">Trader</p>
+                              <p class="profile-minimal__position">{{ __('trader') }}</p>
                               <ul class="profile-minimal__list">
                                 <li><a class="icon mdi mdi-facebook" href="#"></a></li>
                                 <li><a class="icon mdi mdi-twitter" href="#"></a></li>
@@ -460,7 +461,7 @@
                           <article class="profile-minimal"><img class="profile-minimal__image" src="assets/images/user-2-101x101.jpg" alt="" width="101" height="101"/>
                             <div class="profile-minimal__main">
                               <p class="profile-minimal__name">Ryan Johnson</p>
-                              <p class="profile-minimal__position">Trader</p>
+                              <p class="profile-minimal__position">{{ __('trader') }}</p>
                               <ul class="profile-minimal__list">
                                 <li><a class="icon mdi mdi-facebook" href="#"></a></li>
                                 <li><a class="icon mdi mdi-twitter" href="#"></a></li>
@@ -476,7 +477,7 @@
                           <article class="profile-minimal"><img class="profile-minimal__image" src="assets/images/user-2-101x101.jpg" alt="" width="101" height="101"/>
                             <div class="profile-minimal__main">
                               <p class="profile-minimal__name">Ryan Johnson</p>
-                              <p class="profile-minimal__position">Trader</p>
+                              <p class="profile-minimal__position">{{ __('trader') }}</p>
                               <ul class="profile-minimal__list">
                                 <li><a class="icon mdi mdi-facebook" href="#"></a></li>
                                 <li><a class="icon mdi mdi-twitter" href="#"></a></li>
@@ -490,7 +491,7 @@
                           <article class="profile-minimal"><img class="profile-minimal__image" src="assets/images/user-1-101x101.jpg" alt="" width="101" height="101"/>
                             <div class="profile-minimal__main">
                               <p class="profile-minimal__name">Marcel Vossen</p>
-                              <p class="profile-minimal__position">Trader</p>
+                              <p class="profile-minimal__position">{{ __('trader') }}</p>
                               <ul class="profile-minimal__list">
                                 <li><a class="icon mdi mdi-facebook" href="#"></a></li>
                                 <li><a class="icon mdi mdi-twitter" href="#"></a></li>

@@ -2,12 +2,12 @@
 <html class="wide wow-animation" lang="en">
   <head>
     <!-- Site Title-->
-    <title>Home</title>
+    <title>FxTrado</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/logo/fx_logo_small.svg" type="image/x-icon">
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:400,700%7CRubik:300,300i,500,700,900%7CMontserrat:400,700">
     <link rel="stylesheet" href="assets/css/fonts.css">
