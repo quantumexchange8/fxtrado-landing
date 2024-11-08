@@ -187,7 +187,18 @@
               <div class="row justify-content-center">
                 <div class="col-sm-10 col-md-12">
                   <h6 class="wow fadeInUpSmall">{{ __('how_it_work') }}</h6>
-                  <h2 class="wow fadeInUpSmall" data-wow-delay=".1s"><span class="d-inline-block" style="max-width: 570px;">{{ __('the_way_to') }}<strong>{{ __('bitcoins') }}</strong>{{ __('is_not_as_complex_as') }}</span></h2>
+                  <h2 class="wow fadeInUpSmall" data-wow-delay=".1s">
+                    @if (App::getLocale() === 'en')
+                      <h2 class="wow fadeInUpSmall" data-wow-delay=".1s"><span class="d-inline-block" style="max-width: 570px;">{{ __('the_way_to') }}<strong>{{ __('bitcoins') }}</strong>{{ __('is_not_as_complex_as') }}</span></h2>
+                    @else
+                      <span class="d-inline-block" style="max-width: 570px;">
+                        {{ __('the_way_to') }}
+                        <div style="display: flex;flex-direction:column">
+                          <span><strong>{{ __('bitcoins') }}</strong></span>
+                          <span>{{ __('is_not_as_complex_as') }}</span>
+                        </div>
+                      </span></h2>
+                    @endif
                 </div>
               </div>
               <ul class="list-steps">

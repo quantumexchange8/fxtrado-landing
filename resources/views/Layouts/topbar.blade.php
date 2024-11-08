@@ -8,7 +8,7 @@
             <!-- RD Navbar Toggle-->
             <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-outer"><span></span></button>
             <!-- RD Navbar Brand-->
-            <div class="rd-navbar-brand"><a class="brand" href="/"><img class="brand-logo-dark" src="assets/images/logo/fx_logo.svg" alt="" width="125" height="45" srcset="assets/images/logo-default-210x76.png 2x"/><img class="brand-logo-light" src="assets/images/logo-inverse-125x45.png" alt="" width="125" height="45" srcset="assets/images/logo-inverse-210x76.png 2x"/></a>
+            <div class="rd-navbar-brand"><a class="brand" href="/"><img class="brand-logo-dark" src="assets/images/logo/fx_logo.svg" alt="" width="125" height="45"/></a>
             </div>
           </div>
           <div class="rd-navbar-nav-outer">
