@@ -75,7 +75,7 @@
           <section class="section section-md bg-white text-center">
             <div class="container">
               <h6>{{ __('what_bitcoin_offer') }}</h6>
-              <h2>{{ __('no_idea') }}<strong>{{ __('whats') }}</strong>{{ __('going_on') }} </h2>
+              <h2>{{ __('no_idea') }}<strong> {{ __('whats') }}</strong>{{ __('going_on') }} </h2>
               <p><span style="max-width: 430px;">{{ __('bitcoin_is_receive') }}</span></p>
               <div class="row row-30">
                 <div class="col-lg-6 wow fadeInUpSmall">
@@ -429,93 +429,5 @@
             <p class="text-extra-large">{{ __('feedback') }}</p>
           </section>
     
-          <!-- Easily convert bitcoin into any currency-->
-          <section class="section section-md bg-white">
-            <div class="container">
-              <div class="row row-30 justify-content-center justify-content-lg-between align-items-end">
-                <div class="col-md-10 col-lg-6">
-                  <div class="box-inset-4">
-                    <h2 class="wow fadeInLeftSmall">{{ __('easily') }} <strong>{{ __('convert') }}</strong>{{ __('bitcoin_into_any_currency') }} </h2>
-                    <p class="wow fadeInLeftSmall" data-wow-delay=".1s">{{ __('millions_of_people') }}</p>
-                  </div>
-                  <form class="form form-lg form-calculator form-btc-calculator wow fadeInLeftSmall" data-wow-delay=".2s">
-                    <input class="form-input" name="btc-calculator-value" value="1">
-                    <div class="form-info">BTC =</div>
-                    <input class="form-input form-input-result" name="btc-calculator-result">
-                    <div class="form-wrap">
-                      <select class="form-input select-currency select-primary" name="btc-calculator-currency" data-dropdown-class="select-primary-dropdown"></select>
-                    </div>
-                  </form>
-                  <p class="wow fadeInLeftSmall" data-wow-delay=".2s"><span style="opacity: .5;">*{{ __('info_update_every') }}</span></p>
-                </div>
-                <div class="col-md-10 col-lg-6 wow fadeInUpSmall" data-wow-delay=".1s">
-                  <!-- Slick Carousel -->
-                  <div class="slick-slider_profiles">
-                    <div class="slick-slider" data-arrows="true" data-loop="true" data-dots="false" data-swipe="true" data-vertical="true" data-items="1">
-                      <div class="item">
-                        <div class="profile-item">
-                          <!-- Profile Minimal-->
-                          <article class="profile-minimal"><img class="profile-minimal__image" src="assets/images/user-1-101x101.jpg" alt="" width="101" height="101"/>
-                            <div class="profile-minimal__main">
-                              <p class="profile-minimal__name">Marcel Vossen</p>
-                              <p class="profile-minimal__position">{{ __('trader') }}</p>
-                              <ul class="profile-minimal__list">
-                                <li><a class="icon mdi mdi-facebook" href="#"></a></li>
-                                <li><a class="icon mdi mdi-twitter" href="#"></a></li>
-                                <li><a class="icon mdi mdi-instagram" href="#"></a></li>
-                              </ul>
-                            </div>
-                          </article>
-                        </div>
-                        <div class="profile-item">
-                          <!-- Profile Minimal-->
-                          <article class="profile-minimal"><img class="profile-minimal__image" src="assets/images/user-2-101x101.jpg" alt="" width="101" height="101"/>
-                            <div class="profile-minimal__main">
-                              <p class="profile-minimal__name">Ryan Johnson</p>
-                              <p class="profile-minimal__position">{{ __('trader') }}</p>
-                              <ul class="profile-minimal__list">
-                                <li><a class="icon mdi mdi-facebook" href="#"></a></li>
-                                <li><a class="icon mdi mdi-twitter" href="#"></a></li>
-                                <li><a class="icon mdi mdi-instagram" href="#"></a></li>
-                              </ul>
-                            </div>
-                          </article>
-                        </div>
-                      </div>
-                      <div class="item">
-                        <div class="profile-item">
-                          <!-- Profile Minimal-->
-                          <article class="profile-minimal"><img class="profile-minimal__image" src="assets/images/user-2-101x101.jpg" alt="" width="101" height="101"/>
-                            <div class="profile-minimal__main">
-                              <p class="profile-minimal__name">Ryan Johnson</p>
-                              <p class="profile-minimal__position">{{ __('trader') }}</p>
-                              <ul class="profile-minimal__list">
-                                <li><a class="icon mdi mdi-facebook" href="#"></a></li>
-                                <li><a class="icon mdi mdi-twitter" href="#"></a></li>
-                                <li><a class="icon mdi mdi-instagram" href="#"></a></li>
-                              </ul>
-                            </div>
-                          </article>
-                        </div>
-                        <div class="profile-item">
-                          <!-- Profile Minimal-->
-                          <article class="profile-minimal"><img class="profile-minimal__image" src="assets/images/user-1-101x101.jpg" alt="" width="101" height="101"/>
-                            <div class="profile-minimal__main">
-                              <p class="profile-minimal__name">Marcel Vossen</p>
-                              <p class="profile-minimal__position">{{ __('trader') }}</p>
-                              <ul class="profile-minimal__list">
-                                <li><a class="icon mdi mdi-facebook" href="#"></a></li>
-                                <li><a class="icon mdi mdi-twitter" href="#"></a></li>
-                                <li><a class="icon mdi mdi-instagram" href="#"></a></li>
-                              </ul>
-                            </div>
-                          </article>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
+          
 @endsection
